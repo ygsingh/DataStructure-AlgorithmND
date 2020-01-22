@@ -9,9 +9,10 @@ Get an overview of your program. Meet your instructors, and refresh your python 
   - [Classes](Python%20Refresher/Classes.ipynb)
   - [Control Structures](Python%20Refresher/Control%20Structures.ipynb)
   - [Functions and Generators](Python%20Refresher/Functions%20and%20Generators.ipynb)
-- Lesson 3: How to Solve Problems:
+- Lesson 3: How to Solve Problems
   - [Days Between Dates](How%20to%20Solve%20Problems/daysBetweenDates.ipynb)
 - Lesson 4: Big O Notation
+  - [Efficiency](Big%20O%20Notation/Efficiency.ipynb)
 ### Project 1: Unscramble Computer Science Problems
 Deconstruct a series of open-ended problems into smaller components (e.g, inputs, outputs, series of functions).
 ## Course 2: Data Structures
