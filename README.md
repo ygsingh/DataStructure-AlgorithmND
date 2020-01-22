@@ -5,7 +5,7 @@ In this program, you will learn data structures and algorithms by solving 100+ p
 ## Course 1: Introduction
 Get an overview of your program. Meet your instructors, and refresh your python skills. Learn the framework to deconstruct any open-ended problem and then understand the concepts of time and space complexity, essential tools for evaluating different data structure & algorithms.
 - Lesson 1: Introduction
-- Lesson 2: Python Refresher
+- Lesson 2: [Python Refresher](https://github.com/ygsingh/DSAND/tree/master/Python%20Refresher)
 - Lesson 3: How to Solve Problems
 - Lesson 4: Big O Notation
 ### Project 1: Unscramble Computer Science Problems
