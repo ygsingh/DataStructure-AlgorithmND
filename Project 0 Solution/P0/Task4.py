@@ -25,21 +25,6 @@ Print a message:
 The list of numbers should be print out one per line in lexicographic order with no duplicates.
 """
 
-incoming = []
-outgoing = []
-send = []
-recieve = []
-
-for text in texts:
-    send.append(text[0])
-    recieve.append(text[1])
-
-for call in calls:
-    outgoing.append(call[0])
-    incoming.append(call[1])
-
-
-
 # Function to find unique elements
 def uniqueArray(seq):
    checked = []
@@ -56,13 +41,30 @@ def printCodes(seq):
         print(first)
         temp.remove(first)
 
+incoming = []
+outgoing = []
+send = []
+recieve = []
+# create 4 lists from texts and calls data
+for text in texts:
+    send.append(text[0])
+    recieve.append(text[1])
+
+for call in calls:
+    outgoing.append(call[0])
+    incoming.append(call[1])
 
 
 tele = []
+# for all phone numbers in outcall append to spam caller
+# if these numbers are not in incoming, send and recieve
 for outcall in outgoing:
     if outcall not in incoming and outcall not in send and outcall not in recieve:
         tele.append(outcall)
 
+# find unique spam numbers
 tele = uniqueArray(tele)
+
+# print results
 print("These numbers could be telemarketers: ")
 printCodes(tele)

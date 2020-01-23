@@ -78,21 +78,25 @@ for call in calls:
         codes.append(code2)
 
 nbangalore = float(codes.count('080'))
-frac = nbangalore/len(codes)*100
-codes = uniqueArray(codes)
-#print("{:0.2f}".format(frac))
-#codes = sort(codes)
 
+# calculate fraction of calls from Bangalore to Bangalore
+frac = nbangalore/len(codes)*100
+
+# find unique calls from Bangalore
+codes = uniqueArray(codes)
+
+# Print result Part A
 print("The numbers called by people in Bangalore have codes:")
 printCodes(codes)
 
+# Print result Part B
 print("{:0.2f} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.".format(frac))
-"""
-def test():
-    print(findCode('(080)324324'))
-    print(findCode('(0805)324324'))
-    print(findCode('140324324'))
-    print(findCode('08032 43254'))
 
-test()
-"""
+# Tests for findCode function
+#def test():
+#    print(findCode('(080)324324'))
+#    print(findCode('(0805)324324'))
+#    print(findCode('140324324'))
+#    print(findCode('08032 43254'))
+#
+#test()

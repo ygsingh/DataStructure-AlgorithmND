@@ -31,8 +31,12 @@ for call in calls:
 
 # algoithm to extract the max_duration and the telephone number
 # with maximum duration
+# convert keys and values to a list
 number_list = list(dicts.keys())
 duration_list = list(dicts.values())
 max_duration = max(duration_list)
+# Find the telephone number indexed by the maximum duration index
 tel_n = number_list[duration_list.index(max_duration)]
+
+# Print the result
 print("{} spent the longest time, {} seconds, on the phone during September 2016.".format(tel_n,max_duration))
