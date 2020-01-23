@@ -25,3 +25,44 @@ Print a message:
 The list of numbers should be print out one per line in lexicographic order with no duplicates.
 """
 
+incoming = []
+outgoing = []
+send = []
+recieve = []
+
+for text in texts:
+    send.append(text[0])
+    recieve.append(text[1])
+
+for call in calls:
+    outgoing.append(call[0])
+    incoming.append(call[1])
+
+
+
+# Function to find unique elements
+def uniqueArray(seq):
+   checked = []
+   for e in seq:
+       if e not in checked:
+           checked.append(e)
+   return checked
+
+# Function to sort lexicographic
+def printCodes(seq):
+    temp = seq
+    while len(temp) > 0:
+        first = min(temp)
+        print(first)
+        temp.remove(first)
+
+
+
+tele = []
+for outcall in outgoing:
+    if outcall not in incoming and outcall not in send and outcall not in recieve:
+        tele.append(outcall)
+
+tele = uniqueArray(tele)
+print("These numbers could be telemarketers: ")
+printCodes(tele)
