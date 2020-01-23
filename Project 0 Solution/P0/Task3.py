@@ -43,3 +43,56 @@ Print the answer as a part of a message::
 to other fixed lines in Bangalore."
 The percentage should have 2 decimal digits
 """
+
+# find area code of mobile prefixes (function)
+def findCode(pnumber):
+    if pnumber[0:3] == '140':
+        return 140
+    if pnumber[0] == '(':
+        str = pnumber.split(')')
+        return str[0][1:]
+    else:
+        return pnumber[0:4]
+
+# Function to find unique elements
+def uniqueArray(seq):
+   checked = []
+   for e in seq:
+       if e not in checked:
+           checked.append(e)
+   return checked
+
+# Function to sort lexicographic
+def printCodes(seq):
+    temp = seq
+    while len(temp) > 0:
+        first = min(temp)
+        print(first)
+        temp.remove(first)
+
+codes = []
+for call in calls:
+    code1 = findCode(call[0])
+    if code1 == '080':
+        code2 = findCode(call[1])
+        codes.append(code2)
+
+nbangalore = float(codes.count('080'))
+frac = nbangalore/len(codes)*100
+codes = uniqueArray(codes)
+#print("{:0.2f}".format(frac))
+#codes = sort(codes)
+
+print("The numbers called by people in Bangalore have codes:")
+printCodes(codes)
+
+print("{:0.2f} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.".format(frac))
+"""
+def test():
+    print(findCode('(080)324324'))
+    print(findCode('(0805)324324'))
+    print(findCode('140324324'))
+    print(findCode('08032 43254'))
+
+test()
+"""
