@@ -18,6 +18,7 @@ Deconstruct a series of open-ended problems into smaller components (e.g, inputs
 ## Course 2: Data Structures
 Learn different data structures that can be used to store data. Implement different methods used to manipulate these data structures and examine the efficiency. Understand the advantages and applications of different data structures. Learn how to approach open ended problems (either in interviews or in real-world scenarios) and select appropriate data structures based on requirements.
 - Lesson 1: Collection data structures (lists, arrays, linked lists, queues, stack)
+  - [Strings](Collection%20Data%20Structure/Strings.ipynb)
 - Lesson 2: Recursion
 - Lesson 3: Trees
 - Lesson 4: Maps and Hashing
