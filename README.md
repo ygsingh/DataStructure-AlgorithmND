@@ -13,7 +13,7 @@ Get an overview of your program. Meet your instructors, and refresh your python 
   - [Days Between Dates](How%20to%20Solve%20Problems/daysBetweenDates.ipynb)
 - Lesson 4: Big O Notation
   - [Efficiency](Big%20O%20Notation/Efficiency.ipynb)
-### Project 1: Unscramble Computer Science Problems
+### [Project 1](Project%200%20Solution): Unscramble Computer Science Problems
 Deconstruct a series of open-ended problems into smaller components (e.g, inputs, outputs, series of functions).
 ## Course 2: Data Structures
 Learn different data structures that can be used to store data. Implement different methods used to manipulate these data structures and examine the efficiency. Understand the advantages and applications of different data structures. Learn how to approach open ended problems (either in interviews or in real-world scenarios) and select appropriate data structures based on requirements.
