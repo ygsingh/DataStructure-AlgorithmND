@@ -18,11 +18,15 @@ Deconstruct a series of open-ended problems into smaller components (e.g, inputs
 ## Course 2: Data Structures
 Learn different data structures that can be used to store data. Implement different methods used to manipulate these data structures and examine the efficiency. Understand the advantages and applications of different data structures. Learn how to approach open ended problems (either in interviews or in real-world scenarios) and select appropriate data structures based on requirements.
 - Lesson 1: Collection data structures (lists, arrays, linked lists, queues, stack)
-  - [Strings](Collection%20Data%20Structure/Strings.ipynb)
-    - Reverse strings
-    - Anagrams
-    - Reverse the words in sentence
-    - Hamming distance
+  - [Strings](Collection%20Data%20Structure/strings/Strings.ipynb)
+    - [Reverse strings](Collection%20Data%20Structure/strings/1.py)
+    - [Anagrams](Collection%20Data%20Structure/strings/2.py)
+    - [Reverse the words in sentence](Collection%20Data%20Structure/strings/3.py)
+    - [Hamming distance](Collection%20Data%20Structure/strings/4.py)
+  - Linked List
+    - [Singly linked list](Collection%20Data%20Structure/linked_list/Implementing%20and%20traversing%20a%20linked%20list.ipynb)
+    - [Doubly linked list](Collection%20Data%20Structure/linked_list/Linked%20Lists%20Basics.ipynb)
+
 - Lesson 2: Recursion
 - Lesson 3: Trees
 - Lesson 4: Maps and Hashing
