@@ -27,6 +27,7 @@ Learn different data structures that can be used to store data. Implement differ
     - [Singly linked list](Collection%20Data%20Structure/linked_list/Implementing%20and%20traversing%20a%20linked%20list.ipynb)
     - [Doubly linked list](Collection%20Data%20Structure/linked_list/Linked%20Lists%20Basics.ipynb)
     - [Reverse a linked list](Collection%20Data%20Structure/linked_list/Reverse%20a%20Linked%20List.ipynb)
+    - [Detecting loops in a linked list](Collection%20Data%20Structure/linked_list/Detecting%20Loops.ipynb)
 
 - Lesson 2: Recursion
 - Lesson 3: Trees
