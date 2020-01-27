@@ -23,7 +23,7 @@ Learn different data structures that can be used to store data. Implement differ
     - [Anagrams](Collection%20Data%20Structure/strings/2.py)
     - [Reverse the words in sentence](Collection%20Data%20Structure/strings/3.py)
     - [Hamming distance](Collection%20Data%20Structure/strings/4.py)
-  - Linked List
+  - [Linked List](Collection%20Data%20Structure/linked_list/Linked%20List%20Practice.ipynb)
     - [Singly linked list](Collection%20Data%20Structure/linked_list/Implementing%20and%20traversing%20a%20linked%20list.ipynb)
     - [Doubly linked list](Collection%20Data%20Structure/linked_list/Linked%20Lists%20Basics.ipynb)
 
