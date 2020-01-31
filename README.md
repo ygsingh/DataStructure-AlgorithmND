@@ -32,6 +32,7 @@ Learn different data structures that can be used to store data. Implement differ
     - [Add one](Collection%20Data%20Structure/linked_list/Add-One.ipynb)
     - [Duplicate Number](Collection%20Data%20Structure/linked_list/Duplicate-Number.ipynb)
     - [Max Sum Subarray](Collection%20Data%20Structure/linked_list/Max-Sum-Subarray.ipynb)
+    - [Pascal's Triangle](Collection%20Data%20Structure/linked_list/Pascal's-Triangle.ipynb)
 
 - Lesson 2: Recursion
 - Lesson 3: Trees
