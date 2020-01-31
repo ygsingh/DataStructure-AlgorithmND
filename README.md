@@ -31,6 +31,7 @@ Learn different data structures that can be used to store data. Implement differ
     - [Flattening a nested linked list.ipynb](Collection%20Data%20Structure/linked_list/Flattening%20a%20nested%20linked%20list.ipynb)
     - [Add one](Collection%20Data%20Structure/linked_list/Add-One.ipynb)
     - [Duplicate Number](Collection%20Data%20Structure/linked_list/Duplicate-Number.ipynb)
+    - [Max Sum Subarray](Collection%20Data%20Structure/linked_list/Max-Sum-Subarray.ipynb)
 
 - Lesson 2: Recursion
 - Lesson 3: Trees
